@@ -1,0 +1,13 @@
+﻿@import "Cascade-Style-Font";
+
+.btn-xl {
+    font-size: 22px;
+    padding: 22px 16px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    @extend .font-cinzel-bold;
+}

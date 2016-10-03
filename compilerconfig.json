@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Cascade.css",
+    "inputFile": "Cascade.scss"
+  },
+  {
+    "outputFile": "Cascade-Style-Main.css",
+    "inputFile": "Cascade-Style-Main.scss"
+  },
+  {
+    "outputFile": "Styles/Cascade-Style-Main.css",
+    "inputFile": "Styles/Cascade-Style-Main.scss"
+  },
+  {
+    "outputFile": "Styles/Cascade-Style-Collection.css",
+    "inputFile": "Styles/Cascade-Style-Collection.scss"
+  }
+]

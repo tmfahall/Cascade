@@ -1,0 +1,41 @@
+﻿@import "Cascade-Style-Spacing";
+@import "Cascade-Style-Font";
+@import "Cascade-Style-Colors";
+
+.menu {
+    height: 2em;
+    padding: .5em;
+    position: absolute;
+    top: 200px;
+    left: 16%;
+    width: 60%;
+    z-index: 999;
+
+    .container-fluid {
+        min-width: 590px;
+    }
+}
+
+.navbar {
+    background: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav {
+    a {
+        color: $dark-blue !important;
+    }
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+
+    a {
+        background-color: white;
+    }
+}
+
+.opacity-1 {
+    opacity: 1;
+}

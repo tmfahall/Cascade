@@ -1,0 +1,97 @@
+﻿@import "Cascade-Style-Variables";
+
+.background-aerial {
+    background-image: url('../Contents/00_Home/homeBackground.png');
+}
+
+.background-wood {
+    background-image: url('../Contents/02_About/Team/Cascade_Team_Background.png');
+}
+
+.background-grey {
+    background-color: $grey !important;
+}
+
+.text-grey {
+    color: $grey !important;
+}
+
+.background-green {
+    background-color: $green !important;
+}
+
+.text-green {
+    color: $green !important
+}
+
+.border-green-1 {
+    border: 1px solid $green;
+}
+
+.border-green-2 {
+    border: 2px solid $green;
+}
+
+.border-green-3 {
+    border: 3px solid $green;
+}
+
+.background-white {
+    background-color: white !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.background-sky-blue {
+    background-color: $sky-blue !important;
+}
+
+.text-sky-blue {
+    color: $sky-blue !important;
+}
+
+.background-blue {
+    background-color: $blue !important;
+}
+
+.text-blue {
+    color: $blue !important;
+}
+
+.background-dark-blue {
+    background-color: $dark-blue !important;
+}
+
+.text-dark-blue {
+    color: $dark-blue !important;
+}
+
+.border-white-1 {
+    border: 1px solid white;
+}
+
+.border-white-2 {
+    border: 2px solid white;
+}
+
+.border-white-3 {
+    border: 3px solid white;
+}
+
+.border-dark-blue-1 {
+    border: 1px solid $dark-blue;
+}
+
+.border-dark-blue-2 {
+    border: 2px solid $dark-blue;
+}
+
+.border-dark-blue-3 {
+    border: 3px solid $dark-blue;
+}
+
+.text-black {
+    color: black;
+}
