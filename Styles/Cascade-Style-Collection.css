@@ -6353,9 +6353,27 @@ p {
 
 .logo-container {
   position: absolute;
-  left: -25%;
-  top: -80%;
-  background-color: red; }
+  z-index: 999; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+    .logo-container {
+      left: 24vw;
+      top: 7vh; } }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    .logo-container {
+      left: 24vw;
+      top: 3vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+    .logo-container {
+      left: 24vw;
+      top: 7vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .logo-container {
+      left: 24vw;
+      top: 13vh; } }
+  @media screen and (min-device-width: 1281px) {
+    .logo-container {
+      left: 24vw;
+      top: 5vh; } }
 
 /*MARGIN BOTTOM*/
 .margin-bottom-15 {
@@ -6848,7 +6866,7 @@ p {
       top: 20vh; } }
   @media screen and (min-device-width: 1281px) {
     .menu {
-      top: 10vh; } }
+      top: 18vh; } }
 
 .navbar {
   background: transparent;
