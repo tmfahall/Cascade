@@ -1,64 +1,64 @@
 ﻿@font-face {
-	font-family: 'Cinzel-Regular';
-	src: url('../fonts/Cinzel/Cinzel-Regular.ttf') format('truetype');
+    font-family: 'Cinzel-Regular';
+    src: url('../fonts/Cinzel/Cinzel-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Cinzel-Bold';
-	src: url('../fonts/Cinzel/Cinzel-Bold.ttf') format('truetype');
+    font-family: 'Cinzel-Bold';
+    src: url('../fonts/Cinzel/Cinzel-Bold.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Cinzel-Black';
-	src: url('../fonts/Cinzel/Cinzel-Black.ttf') format('truetype');
+    font-family: 'Cinzel-Black';
+    src: url('../fonts/Cinzel/Cinzel-Black.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Raleway-Black';
-	src: url('../fonts/Raleway/Raleway-Black.ttf') format('truetype');
+    font-family: 'Raleway-Black';
+    src: url('../fonts/Raleway/Raleway-Black.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Raleway-Bold';
-	src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Raleway-Regular';
-	src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Raleway-Medium';
-	src: url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
 }
 
 .font-cinzel {
-	font-family: Cinzel-Regular;
+    font-family: Cinzel-Regular;
 }
 
 .font-cinzel-bold {
-	font-family: Cinzel-Bold;
+    font-family: Cinzel-Bold;
 }
 
 .font-cinzel-black {
-	font-family: Cinzel-Black
+    font-family: Cinzel-Black;
 }
 
 .font-raleway {
-	font-family: Raleway-Regular;
+    font-family: Raleway-Regular;
 }
 
 .font-raleway-bold {
-	font-family: Raleway-Bold;
+    font-family: Raleway-Bold;
 }
 
 .font-raleway-black {
-	font-family: Raleway-Black;
+    font-family: Raleway-Black;
 }
 
 .font-raleway-medium {
-	font-family: Raleway-Medium;
+    font-family: Raleway-Medium;
 }
 
 body {
@@ -139,6 +139,162 @@ p {
 
 .font-size-250 {
     font-size: 250%;
+}
+
+.font-size-0-4 {
+    font-size: 0.4vw;
+}
+
+.font-size-0-6 {
+    font-size: 0.6vw;
+}
+
+.font-size-0-8 {
+    font-size: 0.8vw;
+}
+
+.font-size-1-0 {
+    font-size: 1vw;
+}
+
+.font-size-1-2 {
+    font-size: 1.2vw;
+}
+
+.font-size-1-4 {
+    font-size: 1.4vw;
+}
+
+.font-size-1-6 {
+    font-size: 1.6vw;
+}
+
+.font-size-1-8 {
+    font-size: 1.8vw;
+}
+
+.font-size-2-0 {
+    font-size: 2vw;
+}
+
+.font-size-2-2 {
+    font-size: 2.2vw;
+}
+
+.font-size-2-4 {
+    font-size: 2.4vw;
+}
+
+.font-size-2-6 {
+    font-size: 2.6vw;
+}
+
+.font-size-2-8 {
+    font-size: 2.8vw;
+}
+
+.font-size-3-0 {
+    font-size: 3vw;
+}
+
+.font-size-3-2 {
+    font-size: 3.2vw;
+}
+
+.font-size-3-4 {
+    font-size: 3.4vw;
+}
+
+.font-size-3-6 {
+    font-size: 3.6vw;
+}
+
+.font-size-3-8 {
+    font-size: 3.8vw;
+}
+
+.font-size-4-0 {
+    font-size: 4vw;
+}
+
+.font-size-4-2 {
+    font-size: 4.2vw;
+}
+
+.font-size-4-4 {
+    font-size: 4.4vw;
+}
+
+.font-size-4-6 {
+    font-size: 4.6vw;
+}
+
+.font-size-4-8 {
+    font-size: 4.8vw;
+}
+
+.font-size-5-0 {
+    font-size: 5vw;
+}
+
+.font-size-5-2 {
+    font-size: 5.2vw;
+}
+
+.font-size-5-4 {
+    font-size: 5.4vw;
+}
+
+.font-size-5-6 {
+    font-size: 5.6vw;
+}
+
+.font-size-5-8 {
+    font-size: 5.8vw;
+}
+
+.font-size-6-0 {
+    font-size: 6vw;
+}
+
+.font-size-6-2 {
+    font-size: 6.2vw;
+}
+
+.font-size-6-4 {
+    font-size: 6.4vw;
+}
+
+.font-size-6-6 {
+    font-size: 6.6vw;
+}
+
+.font-size-6-8 {
+    font-size: 6.8vw;
+}
+
+.font-size-7-0 {
+    font-size: 7vw;
+}
+
+.font-size-7-2 {
+    font-size: 7.2vw;
+}
+
+.font-size-7-4 {
+    font-size: 7.4vw;
+}
+
+.font-size-7-6 {
+    font-size: 7.6vw;
+}
+
+.font-size-7-8 {
+    font-size: 7.8vw;
+}
+
+.font-size-8-0 {
+    font-size: 8vw;
 }
 
 .font-bold {

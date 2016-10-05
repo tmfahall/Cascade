@@ -3,16 +3,35 @@
 @import "Cascade-Style-Colors";
 
 .menu {
-    height: 2em;
-    padding: .5em;
+    height: 7vh;
     position: absolute;
-    top: 200px;
-    left: 16%;
-    width: 60%;
+    right: 10vw;
+    width: 60vw;
     z-index: 999;
 
     .container-fluid {
         min-width: 590px;
+    }
+    //generic phone
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+        top: 10vh;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+        top: 10vh;
+    }
+    //generic tablet
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+        top: 10vh;
+    }
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+        top: 20vh;
+    }
+
+    //generic larger than tablet
+    @media screen and (min-device-width: 1281px) {
+        top: 10vh;
     }
 }
 

@@ -12,3 +12,142 @@ $sky-blue: #DEE7FF;
 $blue: #4A4AB0;
 $dark-blue: #22215f;
 $grey: #565562;
+
+//generic phone
+@media screen
+    and (min-device-width: 320px)
+    and (max-device-width: 767px){
+
+}
+
+//generic tablet
+@media screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1280px){
+
+}
+
+//LAPTOPS
+//laptop non-retina
+@media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+        
+}
+
+//laptop with retina
+@media screen
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+        
+}
+
+
+//TABLETS
+//ipad mini, ipad 1, ipad 2,
+@media screen
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+        
+}
+
+//ipad 3, ipad 4,
+@media screen
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        
+}
+
+//galaxy tab 10.1
+@media screen
+    and (min-device-width: 800px) 
+    and (max-device-width: 1280px) {
+
+}
+
+//kindle fire hd 7"
+@media screen
+    and (min-device-width: 800px) 
+    and (max-device-width: 1280px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+//kindle fire hd 8.9"
+@media screen
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+//asus nexus 7
+@media screen
+    and (device-width: 601px)
+    and (device-height: 906px)
+    and (-webkit-min-device-pixel-ratio: 1.331)
+    and (-webkit-max-device-pixel-ratio: 1.332) {
+
+}
+
+//PHONES
+//iphone 4, iphone 4s
+@media screen
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+//iphone 5, iphone 5s
+@media screen
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+//iphone 6
+@media screen
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+//iphone 6+
+@media screen
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+//galaxy s3
+@media screen
+    and (min-device-width: 320px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+//galaxy s4
+@media screen
+    and (min-device-width: 320px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+//galaxy s5, htc one
+@media screen
+    and (min-device-width: 360px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+}

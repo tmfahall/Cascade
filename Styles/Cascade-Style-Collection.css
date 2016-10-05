@@ -5923,6 +5923,123 @@ p {
 .font-size-250 {
   font-size: 250%; }
 
+.font-size-0-4 {
+  font-size: 0.4vw; }
+
+.font-size-0-6 {
+  font-size: 0.6vw; }
+
+.font-size-0-8 {
+  font-size: 0.8vw; }
+
+.font-size-1-0 {
+  font-size: 1vw; }
+
+.font-size-1-2 {
+  font-size: 1.2vw; }
+
+.font-size-1-4 {
+  font-size: 1.4vw; }
+
+.font-size-1-6 {
+  font-size: 1.6vw; }
+
+.font-size-1-8 {
+  font-size: 1.8vw; }
+
+.font-size-2-0 {
+  font-size: 2vw; }
+
+.font-size-2-2 {
+  font-size: 2.2vw; }
+
+.font-size-2-4 {
+  font-size: 2.4vw; }
+
+.font-size-2-6 {
+  font-size: 2.6vw; }
+
+.font-size-2-8 {
+  font-size: 2.8vw; }
+
+.font-size-3-0 {
+  font-size: 3vw; }
+
+.font-size-3-2 {
+  font-size: 3.2vw; }
+
+.font-size-3-4 {
+  font-size: 3.4vw; }
+
+.font-size-3-6 {
+  font-size: 3.6vw; }
+
+.font-size-3-8 {
+  font-size: 3.8vw; }
+
+.font-size-4-0 {
+  font-size: 4vw; }
+
+.font-size-4-2 {
+  font-size: 4.2vw; }
+
+.font-size-4-4 {
+  font-size: 4.4vw; }
+
+.font-size-4-6 {
+  font-size: 4.6vw; }
+
+.font-size-4-8 {
+  font-size: 4.8vw; }
+
+.font-size-5-0 {
+  font-size: 5vw; }
+
+.font-size-5-2 {
+  font-size: 5.2vw; }
+
+.font-size-5-4 {
+  font-size: 5.4vw; }
+
+.font-size-5-6 {
+  font-size: 5.6vw; }
+
+.font-size-5-8 {
+  font-size: 5.8vw; }
+
+.font-size-6-0 {
+  font-size: 6vw; }
+
+.font-size-6-2 {
+  font-size: 6.2vw; }
+
+.font-size-6-4 {
+  font-size: 6.4vw; }
+
+.font-size-6-6 {
+  font-size: 6.6vw; }
+
+.font-size-6-8 {
+  font-size: 6.8vw; }
+
+.font-size-7-0 {
+  font-size: 7vw; }
+
+.font-size-7-2 {
+  font-size: 7.2vw; }
+
+.font-size-7-4 {
+  font-size: 7.4vw; }
+
+.font-size-7-6 {
+  font-size: 7.6vw; }
+
+.font-size-7-8 {
+  font-size: 7.8vw; }
+
+.font-size-8-0 {
+  font-size: 8vw; }
+
 .font-bold {
   font-weight: bold !important; }
 
@@ -6114,8 +6231,131 @@ p {
 .font-size-250 {
   font-size: 250%; }
 
+.font-size-0-4 {
+  font-size: 0.4vw; }
+
+.font-size-0-6 {
+  font-size: 0.6vw; }
+
+.font-size-0-8 {
+  font-size: 0.8vw; }
+
+.font-size-1-0 {
+  font-size: 1vw; }
+
+.font-size-1-2 {
+  font-size: 1.2vw; }
+
+.font-size-1-4 {
+  font-size: 1.4vw; }
+
+.font-size-1-6 {
+  font-size: 1.6vw; }
+
+.font-size-1-8 {
+  font-size: 1.8vw; }
+
+.font-size-2-0 {
+  font-size: 2vw; }
+
+.font-size-2-2 {
+  font-size: 2.2vw; }
+
+.font-size-2-4 {
+  font-size: 2.4vw; }
+
+.font-size-2-6 {
+  font-size: 2.6vw; }
+
+.font-size-2-8 {
+  font-size: 2.8vw; }
+
+.font-size-3-0 {
+  font-size: 3vw; }
+
+.font-size-3-2 {
+  font-size: 3.2vw; }
+
+.font-size-3-4 {
+  font-size: 3.4vw; }
+
+.font-size-3-6 {
+  font-size: 3.6vw; }
+
+.font-size-3-8 {
+  font-size: 3.8vw; }
+
+.font-size-4-0 {
+  font-size: 4vw; }
+
+.font-size-4-2 {
+  font-size: 4.2vw; }
+
+.font-size-4-4 {
+  font-size: 4.4vw; }
+
+.font-size-4-6 {
+  font-size: 4.6vw; }
+
+.font-size-4-8 {
+  font-size: 4.8vw; }
+
+.font-size-5-0 {
+  font-size: 5vw; }
+
+.font-size-5-2 {
+  font-size: 5.2vw; }
+
+.font-size-5-4 {
+  font-size: 5.4vw; }
+
+.font-size-5-6 {
+  font-size: 5.6vw; }
+
+.font-size-5-8 {
+  font-size: 5.8vw; }
+
+.font-size-6-0 {
+  font-size: 6vw; }
+
+.font-size-6-2 {
+  font-size: 6.2vw; }
+
+.font-size-6-4 {
+  font-size: 6.4vw; }
+
+.font-size-6-6 {
+  font-size: 6.6vw; }
+
+.font-size-6-8 {
+  font-size: 6.8vw; }
+
+.font-size-7-0 {
+  font-size: 7vw; }
+
+.font-size-7-2 {
+  font-size: 7.2vw; }
+
+.font-size-7-4 {
+  font-size: 7.4vw; }
+
+.font-size-7-6 {
+  font-size: 7.6vw; }
+
+.font-size-7-8 {
+  font-size: 7.8vw; }
+
+.font-size-8-0 {
+  font-size: 8vw; }
+
 .font-bold {
   font-weight: bold !important; }
+
+.logo-container {
+  position: absolute;
+  left: -25%;
+  top: -80%;
+  background-color: red; }
 
 /*MARGIN BOTTOM*/
 .margin-bottom-15 {
@@ -6137,6 +6377,9 @@ p {
   margin-bottom: 0vh; }
 
 /*MARGIN TOP*/
+.margin-top-50 {
+  margin-top: 50vh; }
+
 .margin-top-15 {
   margin-top: 15vh; }
 
@@ -6391,6 +6634,123 @@ p {
 .font-size-250 {
   font-size: 250%; }
 
+.font-size-0-4 {
+  font-size: 0.4vw; }
+
+.font-size-0-6 {
+  font-size: 0.6vw; }
+
+.font-size-0-8 {
+  font-size: 0.8vw; }
+
+.font-size-1-0 {
+  font-size: 1vw; }
+
+.font-size-1-2 {
+  font-size: 1.2vw; }
+
+.font-size-1-4 {
+  font-size: 1.4vw; }
+
+.font-size-1-6 {
+  font-size: 1.6vw; }
+
+.font-size-1-8 {
+  font-size: 1.8vw; }
+
+.font-size-2-0 {
+  font-size: 2vw; }
+
+.font-size-2-2 {
+  font-size: 2.2vw; }
+
+.font-size-2-4 {
+  font-size: 2.4vw; }
+
+.font-size-2-6 {
+  font-size: 2.6vw; }
+
+.font-size-2-8 {
+  font-size: 2.8vw; }
+
+.font-size-3-0 {
+  font-size: 3vw; }
+
+.font-size-3-2 {
+  font-size: 3.2vw; }
+
+.font-size-3-4 {
+  font-size: 3.4vw; }
+
+.font-size-3-6 {
+  font-size: 3.6vw; }
+
+.font-size-3-8 {
+  font-size: 3.8vw; }
+
+.font-size-4-0 {
+  font-size: 4vw; }
+
+.font-size-4-2 {
+  font-size: 4.2vw; }
+
+.font-size-4-4 {
+  font-size: 4.4vw; }
+
+.font-size-4-6 {
+  font-size: 4.6vw; }
+
+.font-size-4-8 {
+  font-size: 4.8vw; }
+
+.font-size-5-0 {
+  font-size: 5vw; }
+
+.font-size-5-2 {
+  font-size: 5.2vw; }
+
+.font-size-5-4 {
+  font-size: 5.4vw; }
+
+.font-size-5-6 {
+  font-size: 5.6vw; }
+
+.font-size-5-8 {
+  font-size: 5.8vw; }
+
+.font-size-6-0 {
+  font-size: 6vw; }
+
+.font-size-6-2 {
+  font-size: 6.2vw; }
+
+.font-size-6-4 {
+  font-size: 6.4vw; }
+
+.font-size-6-6 {
+  font-size: 6.6vw; }
+
+.font-size-6-8 {
+  font-size: 6.8vw; }
+
+.font-size-7-0 {
+  font-size: 7vw; }
+
+.font-size-7-2 {
+  font-size: 7.2vw; }
+
+.font-size-7-4 {
+  font-size: 7.4vw; }
+
+.font-size-7-6 {
+  font-size: 7.6vw; }
+
+.font-size-7-8 {
+  font-size: 7.8vw; }
+
+.font-size-8-0 {
+  font-size: 8vw; }
+
 .font-bold {
   font-weight: bold !important; }
 
@@ -6467,15 +6827,28 @@ p {
   color: black; }
 
 .menu {
-  height: 2em;
-  padding: .5em;
+  height: 7vh;
   position: absolute;
-  top: 200px;
-  left: 16%;
-  width: 60%;
+  right: 10vw;
+  width: 60vw;
   z-index: 999; }
   .menu .container-fluid {
     min-width: 590px; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+    .menu {
+      top: 10vh; } }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    .menu {
+      top: 10vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+    .menu {
+      top: 10vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .menu {
+      top: 20vh; } }
+  @media screen and (min-device-width: 1281px) {
+    .menu {
+      top: 10vh; } }
 
 .navbar {
   background: transparent;
@@ -6513,6 +6886,9 @@ p {
   margin-bottom: 0vh; }
 
 /*MARGIN TOP*/
+.margin-top-50 {
+  margin-top: 50vh; }
+
 .margin-top-15 {
   margin-top: 15vh; }
 
@@ -6658,18 +7034,64 @@ p {
   margin-right: auto;
   text-align: center; }
 
+/*SECTION BODY ALL*/
+.section-body {
+  position: relative;
+  left: 10vw;
+  width: 80vw; }
+
 /*SECTION 1 - CASCADE HOME*/
 #section-1 {
-  height: 100vh;
-  position: static;
-  min-height: 1000px;
-  max-height: 1400px; }
+  position: relative; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+    #section-1 {
+      max-height: 1440px;
+      height: 50vh; } }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    #section-1 {
+      max-height: 1440px;
+      height: 100vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+    #section-1 {
+      max-height: 1440px;
+      height: 60vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+    #section-1 {
+      max-height: 1440px;
+      height: 100vh; } }
+  @media screen and (min-device-width: 1281px) {
+    #section-1 {
+      max-height: 1440px;
+      height: 100vh; } }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  #section-1 .section-body {
+    top: 20vh; } }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+  #section-1 .section-body {
+    top: 30vh; } }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+  #section-1 .section-body {
+    top: 20vh; } }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+  #section-1 .section-body {
+    top: 35vh; } }
+
+@media screen and (min-device-width: 1281px) {
+  #section-1 .section-body {
+    top: 40vh; } }
 
 /*SECTION 2 - ABOUT*/
 #section-2 {
   position: static;
   min-height: 700px;
   max-height: 1000px; }
+
+#section-2 .row {
+  overflow: visible; }
 
 .aboutMedicineExp, .aboutMedicine:hover {
   background: url("../Contents/01_Services/Expanded Sections/PNG/expanded1.png") no-repeat center; }
@@ -6730,14 +7152,16 @@ p {
 
 /*SECTION 8 - CUSTOMER TESTIMONIALS*/
 #section-8 {
-  height: 50vh;
   position: static;
   min-height: 470px; }
   #section-8 .review-icon {
     margin-top: 2vh;
-    margin-bottom: 5vh; }
+    margin-bottom: 2vh; }
   #section-8 .comment-box {
     height: auto; }
+
+#section-8 .section-body {
+  top: 5vh; }
 
 /*SECTION 9 - GOOGLE MAP*/
 #section-9 #g-map {
@@ -6755,25 +7179,32 @@ p {
 
 /*SECTION 10 - CONTACT*/
 #section-10 {
-  height: 90vh;
+  height: 120vh;
   position: static;
   min-height: 780px;
   max-height: 1200px; }
   #section-10 input[type="text"] {
     border-radius: 0px !important; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+    #section-10 {
+      height: 120vh; } }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    #section-10 {
+      height: 160vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+    #section-10 {
+      height: 70vh; } }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+    #section-10 {
+      height: 120vh; } }
+  @media screen and (min-device-width: 1281px) {
+    #section-10 {
+      height: 120vh; } }
 
 /*SECTION 11 - FOOTER*/
 #section-11 {
   position: static;
   min-height: 8vh; }
-
-/*SECTION BODY ALL*/
-.section-body {
-  position: relative;
-  bottom: -2vh;
-  left: 15%;
-  width: 60vw;
-  height: 80vh; }
 
 /*MARGIN BOTTOM*/
 .margin-bottom-15 {
@@ -6795,6 +7226,9 @@ p {
   margin-bottom: 0vh; }
 
 /*MARGIN TOP*/
+.margin-top-50 {
+  margin-top: 50vh; }
+
 .margin-top-15 {
   margin-top: 15vh; }
 

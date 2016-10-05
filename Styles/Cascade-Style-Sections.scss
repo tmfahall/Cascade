@@ -1,15 +1,66 @@
 ﻿@import "Cascade-Style-Spacing";
 @import "Cascade-Style-Variables";
 
+/*SECTION BODY ALL*/
+.section-body {
+    position: relative;
+    left: 10vw;
+    width: 80vw;
+}
 
 /*SECTION 1 - CASCADE HOME*/
 #section-1 {
     @extend .background-aerial;
     @extend .full-width;
-    height: 100vh;
-    position: static;
-    min-height: 1000px;
-    max-height: 1400px;
+    position: relative;
+    //generic phone
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+        max-height: 1440px;
+        height: 50vh;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+        max-height: 1440px;
+        height: 100vh;
+    }
+    //generic tablet
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+        max-height: 1440px;
+        height: 60vh;
+    }
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+        max-height: 1440px;
+        height: 100vh;
+    }
+    //generic larger than tablet
+    @media screen and (min-device-width: 1281px) {
+        max-height: 1440px;
+        height: 100vh;
+    }
+}
+
+#section-1 .section-body {
+    //generic phone
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+        top: 20vh;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+        top: 30vh;
+    }
+    //generic tablet
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+        top: 20vh;
+    }
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+        top: 35vh;
+    }
+    //generic larger than tablet
+    @media screen and (min-device-width: 1281px) {
+        top: 40vh;
+    }
 }
 
 /*SECTION 2 - ABOUT*/
@@ -19,6 +70,10 @@
     position: static;
     min-height: 700px;
     max-height: 1000px;
+}
+
+#section-2 .row {
+    overflow: visible;
 }
 
 .aboutMedicineExp {
@@ -133,13 +188,12 @@
 #section-8 {
     @extend .background-green;
     @extend .full-width;
-    height: 50vh;
     position: static;
     min-height: 470px;
 
     .review-icon {
         margin-top: 2vh;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
     }
 
     .comment-box {
@@ -147,6 +201,9 @@
     }
 }
 
+#section-8 .section-body {
+    top: 5vh;
+}
 
 /*SECTION 9 - GOOGLE MAP*/
 #section-9 {
@@ -174,7 +231,7 @@
 #section-10 {
     @extend .background-sky-blue;
     @extend .full-width;
-    height: 90vh;
+    height: 120vh;
     position: static;
     min-height: 780px;
     max-height: 1200px;
@@ -182,6 +239,27 @@
     input[type="text"] {
         border-radius: 0px !important;
         @extend .text-blue;
+    }
+
+        //generic phone
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+        height: 120vh;
+    }
+
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+        height: 160vh;
+    }
+    //generic tablet
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+        height: 70vh;
+    }
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+        height: 120vh;
+    }
+    //generic larger than tablet
+    @media screen and (min-device-width: 1281px) {
+        height: 120vh;
     }
 }
 
@@ -192,14 +270,4 @@
     @extend .full-width;
     position: static;
     min-height: 8vh;
-}
-
-
-/*SECTION BODY ALL*/
-.section-body {
-    position: relative;
-    bottom: -2vh;
-    left: 15%;
-    width: 60vw;
-    height: 80vh;
 }
