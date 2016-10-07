@@ -8,21 +8,25 @@
 </head>
 <body class="font-raleway-medium line-height-200 margin-bottom-10">
 
+    <div class="header"></div>
+
     <div class="menu">
         <div class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right font-cinzel-bold text-dark-blue font-size-2-0">
-                        <li><a href="#section-1">Home</a></li>
+                    <ul class="nav navbar-nav navbar-right font-cinzel-bold text-dark-blue font-size-2-0" id="navbar-items">
+                        <li class="first-li"><a href="#section-1">Home</a></li>
                         <li><a href="#section-2">About</a></li>
                         <li><a href="#section-2">Services</a></li>
                         <li><a href="#section-10">Contact</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="">Blog</a><span class="last-li"></span></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
         </div>
     </div>
+
+    <div class="fixed-navbar-backing"></div>
 
     <div class="logo-container">
         <div class="logo-holder">
@@ -33,13 +37,13 @@
     <div id="section-1">
         <div class="section-body">
             <div class="row">
-                <div class="col-xs-6 col-xs-offset-2">
+                <div class="col-xs-6">
                     <p class="text-uppercase text-dark-blue font-cinzel-bold font-size-2-8 heading line-height-100 first-paragraph">white city's very own community pharmacy</p>
                     <p class="margin-bottom-5 text-dark-blue font-raleway-medium font-size-1-6">Providing cutting-edge, personalized care to our community. Stop by to learn more or click the link below to request an obligation-free consultation with one of our pharmacists.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4 col-xs-offset-2">
+                <div class="col-xs-4">
                     <button class="btn btn-xl btn-block text-uppercase background-green text-white text-center">
                         <span class="hidden-sm hidden-xs hidden-lg font-size-1-2">Request A Free Consultation</span>
                         <span class="visible-lg-block visible-sm-block visible-xs-block font-size-2-0">Free Request</span>
@@ -52,7 +56,7 @@
     <div id="section-2">
         <div class="section-body">
             <div class="row margin-bottom-5">
-                <div class="col-xs-6 col-xs-offset-2">
+                <div class="col-xs-6">
                     <p class="text-uppercase text-green font-cinzel-bold margin-top-5 font-size-2-2">what cascade has to offer</p>
                     <p class="font-size-1-6 text-white">
                         Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
@@ -169,7 +173,9 @@
     </div>
 
     <div id="section-9">
-        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.0408202000694!2d-122.85034099999999!3d42.426866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e4c4c88f8ee88c1!2sCascade+Natural+Health+Pharm!5e0!3m2!1sen!2sus!4v1475261625628" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.0408202000694!2d-122.85034099999999!3d42.426866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e4c4c88f8ee88c1!2sCascade+Natural+Health+Pharm!5e0!3m2!1sen!2sus!4v1475261625628" width="1200" height="800" frameborder="0" style="border:0" allowfullscreen id="gmap"></iframe>
+        </div>
     </div>
 
     <div id="section-10">
@@ -254,19 +260,19 @@
 
     <div id="section-11">
         <div class="row">
-            <p class="text-uppercase text-center text-white font-size-1-2">all rights reserved 2016 cascade natural health pharmacy</p>
+            <p class="text-uppercase text-center text-white font-size-1-2 col-xs-12">all rights reserved 2016 cascade natural health pharmacy</p>
         </div>
     </div>
 
     <script src="Scripts/jQuery/jQuery3.js"></script>
     <script src="Scripts/bsJS/bootstrap.js"></script>
+    <script src="Scripts/html2canvas.js"></script>
     <script src="Scripts/Cascade-Script-About-Dropdowns.js"></script>
     <script src="Scripts/Cascade-Script-Logo-Resizer.js"></script>
     <script src="Scripts/Cascade-Script-Navbar.js"></script>
     <script src="Scripts/Cascade-Script-Repaint.js"></script>
     <script src="Scripts/Cascade-Script-Section-Height-Setter.js"></script>
     <script src="Scripts/Cascade-Script-Testing.js"></script>
-
 
     <!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->

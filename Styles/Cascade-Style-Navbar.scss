@@ -28,7 +28,6 @@
     @media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
         top: 20vh;
     }
-
     //generic larger than tablet
     @media screen and (min-device-width: 1281px) {
         top: 18vh;
@@ -50,11 +49,47 @@
     position: fixed;
     top: 0;
 
-    a {
+    /*a {
         background-color: white;
     }
+
+    a:active {
+        background-color: white;
+    }
+
+    a:hover {
+        background-color: $sky-blue;
+    }*/
 }
 
 .opacity-1 {
     opacity: 1;
+}
+
+.header, .blurheader {
+    background: rgba(255,255,255,.6);
+    height: 7vh;
+    position: fixed;
+    width: 55vw;
+    right: 10vw;
+    top: 0;
+    z-index: 998;
+}
+
+.header {
+    display: none;
+}
+
+.blurheader {
+    background: transparent;
+    overflow: hidden;
+    z-index: 997;
+}
+
+#canvas {
+    opacity: 1;
+    z-index: 100;
+    position: absolute;
+    display: block;
+    top: 3px;
 }

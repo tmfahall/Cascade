@@ -224,6 +224,10 @@
         padding-top: 30px;
         position: relative;
     }
+
+    .scrolloff {
+        pointer-events: none;
+    }
 }
 
 
@@ -240,8 +244,7 @@
         border-radius: 0px !important;
         @extend .text-blue;
     }
-
-        //generic phone
+    //generic phone
     @media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
         height: 120vh;
     }
@@ -259,7 +262,7 @@
     }
     //generic larger than tablet
     @media screen and (min-device-width: 1281px) {
-        height: 120vh;
+        height: 125vh;
     }
 }
 
